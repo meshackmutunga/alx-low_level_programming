@@ -1,15 +1,7 @@
-/*
- * File: 6-size.c
- * Auth: Brennan D Baraban
- */
-
 #include <stdio.h>
-
-/**
- * main - Prints the size of various types based on
- *        the computer it is compiled and run on..
- *
- * Return: Always 0.
+/*
+ *This should check the computer and print size of vaious aspects being used
+ *  
  */
 int main(void)
 {
