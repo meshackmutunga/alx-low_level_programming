@@ -1,7 +1,7 @@
 #include <stdio.h>
 /*
- *This should check the computer and print size of vaious aspects being used
- *  
+ * main - prints the size of various types
+ * Return: 0 if exited properly, non-zero otherwise
  */
 int main(void)
 {
