@@ -1,6 +1,7 @@
 /*
  * File: 2-largest_number.c
  */
+
 #include <stdio.h>
 #include "main.h"
 
@@ -11,7 +12,7 @@
 * @day: day of month
 * @year: year
 * 
-* Return: void
+* Return: leap year
 */
 
 void print_remaining_days(int month, int day, int year)
