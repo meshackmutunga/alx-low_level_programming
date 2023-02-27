@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-* main - Lanzador.
+* main - Lanzador assignment.
 *
 * Return: Always 0.
 */
