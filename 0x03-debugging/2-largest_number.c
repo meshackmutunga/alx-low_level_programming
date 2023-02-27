@@ -1,3 +1,6 @@
+/*
+ * File: 2-largest_number.c
+ */
 #include "main.h"
 
 /**
@@ -5,6 +8,8 @@
  * @a: first int
  * @b: second int
  * @c: third integerst number
+ *
+ * Return: largest of the three.
  */
 
 int largest_number(int a, int b, int c)
