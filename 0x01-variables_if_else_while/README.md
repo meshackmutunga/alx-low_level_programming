@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # C - if else while
 
 ## Assignments:pages:
@@ -43,3 +44,6 @@
 
 * **13. Software is eating the World**
   * [102-print_comb5.c](./102-print_comb5.c)
+=======
+C language basics
+>>>>>>> c83b3a9fb0c0fbeaa8f53045714e20a77e6a3868

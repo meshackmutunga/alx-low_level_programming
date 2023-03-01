@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
  * File: 8-print_base16.c
  */
@@ -23,3 +24,21 @@ int main(void)
 
 	return (0);
 }
+=======
+#include <stdio.h>
+/**
+* main - Entry point
+* Return: 0.
+*/
+int main(void)
+{
+char abc;
+for (abc = '0'; abc <= '9'; abc++)
+putchar(abc);
+for (abc = 'a'; abc <= 'f'; abc++)
+putchar(abc);
+putchar('\n');
+return (0);
+}
+
+>>>>>>> c83b3a9fb0c0fbeaa8f53045714e20a77e6a3868

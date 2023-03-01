@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
  * File: 6-print_numberz.c
  */
@@ -20,4 +21,18 @@ int main(void)
 	putchar('\n');
 
 	return (0);
+=======
+#include <stdio.h>
+/**
+* main - Entry point
+* Return: 0.
+*/
+int main(void)
+{
+int num;
+for (num = 48; num <= 57; num++)
+putchar(num);
+putchar('\n');
+return (0);
+>>>>>>> c83b3a9fb0c0fbeaa8f53045714e20a77e6a3868
 }

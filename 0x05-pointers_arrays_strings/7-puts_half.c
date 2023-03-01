@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include "main.h"
 
 /**
@@ -20,5 +21,26 @@ void puts_half(char *str)
 	for (i = j; i < len; i++)
 		_putchar(str[i]);
 
+=======
+#include "holberton.h"
+
+/**
+ * puts_half - Entry point
+ * @str: char array string type
+ *
+ */
+
+void puts_half(char *str)
+{
+	int i;
+
+	for (i = 0; str[i] != '\0'; i++)
+
+	i++;
+	for (i /= 2; str[i] != '\0'; i++)
+	{
+		_putchar(str[i]);
+	}
+>>>>>>> c83b3a9fb0c0fbeaa8f53045714e20a77e6a3868
 	_putchar('\n');
 }

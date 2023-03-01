@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include "main.h"
 
 /**
@@ -14,4 +15,21 @@ void swap_int(int *a, int *b)
 	 c = *a;
 	*a = *b;
 	*b = c;
+=======
+#include "holberton.h"
+/**
+ *swap_int - Entry point
+ *
+ *@a: give me a value
+ *@b: give me another value
+ *Return: 0.
+ */
+void swap_int(int *a, int *b)
+{
+	int aux;
+
+	aux = *a;
+	*a = *b;
+	*b = aux;
+>>>>>>> c83b3a9fb0c0fbeaa8f53045714e20a77e6a3868
 }

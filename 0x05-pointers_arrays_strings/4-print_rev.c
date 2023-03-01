@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include "main.h"
 /**
  * print_rev - imprime en reversa
@@ -22,4 +23,28 @@ void print_rev(char *s)
 	}
 
 	_putchar('\n');
+=======
+#include "holberton.h"
+/**
+ * print_rev - Entry point.
+ *@s: the variable
+ *
+ */
+void print_rev(char *s)
+{
+	char *aux = s;
+
+	if (s)
+	{
+		while (*aux)
+		{
+			aux++;
+		}
+		while (s < aux--)
+		{
+			_putchar(*aux);
+		}
+		_putchar('\n');
+	}
+>>>>>>> c83b3a9fb0c0fbeaa8f53045714e20a77e6a3868
 }
